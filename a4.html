@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>COSC260 Assignment 3 Tester</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="COSC260 Assignmnet 3">
+  <meta name="keywords" content="COSC260, Web Programming, Assignment 3, UNE">
+  <meta name="author" content="Your Name">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/submit.js"></script>
+</head>
+<body>
+  <!-- wrapper -->
+  <div id="wrapper">
+    <!-- registration form -->
+    <form method="post" action="php/register.php" id="registration">
+      <legend>
+        <h2>User Registration</h2>
+      </legend>
+      <fieldset>
+        <label for="username">UserName:</label>
+        <input type="text" name="username" required />
+      </fieldset>
+      <fieldset>
+        <label for="fullName">FullName:</label>
+        <input type="text" name="fullName" required />
+      </fieldset>
+      <fieldset>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required />
+      </fieldset>
+      <fieldset>
+        <label for="dateOfBirth">DOB (dd:mm:yyyy):</label>
+        <input type="text" name="dateOfBirth" required />
+      </fieldset>
+      <fieldset>
+        <button type="submit" class="button">Submit Query</button>
+      </fieldset>
+      <fieldset>
+        <button type="reset" class="button">Reset</button>
+      </fieldset>
+    </form>
+    <!-- server response -->
+    <div id="server_response"><span></span></div>
+  </div>
+</body>
+</html>

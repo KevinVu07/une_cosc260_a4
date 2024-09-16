@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ed0e0963-bbf7-40a2-bc93-c833a1efc3a8" name="UNE-Turing" url="https://turing.une.edu.au/~hvu7">
+        <fileTransfer rootFolder="/home/hvu7" accessType="SFTP" host="turing.une.edu.au" port="22" sshConfigId="bfbe7d39-800b-4666-a948-76a3b1bbbba6" sshConfig="hvu7@turing.une.edu.au:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
