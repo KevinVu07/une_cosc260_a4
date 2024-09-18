@@ -29,7 +29,7 @@ function send_request() {
       $('#server_response span').text('Temporary password: ' +data.password);
     },
     error: function(jqXHR) {
-      // parse JSON
+      // parse JSON error message from server
       try {
         var $e = JSON.parse(jqXHR.responseText);
         
